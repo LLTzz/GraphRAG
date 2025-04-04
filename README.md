@@ -108,8 +108,8 @@ graphrag-system/
 │   │   ├── App.js         # 主应用组件
 │   │   └── index.js       # 入口文件
 │   └── public/            # 静态资源
-├── graph_qa_system.py     # GraphRAG后端主程序
-├── chat_deepseek_api.py   # 生成模型接口
+├── graphrag_qa_system.py     # GraphRAG后端主程序
+├── graph_qa_system.py   # 生成模型接口
 ├── requirements.txt       # Python依赖
 └── README.md             # 项目文档
 ```
