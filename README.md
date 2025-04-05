@@ -1,6 +1,6 @@
 # GraphRAG: 基于知识图谱的检索增强生成系统
 
-基于 GraphRAG (Graph-based Retrieval Augmented Generation) 技术的智能医疗问答系统，将知识图谱的精确检索能力与生成式 AI 的语义理解能力相结合，为用户提供准确、及时的医疗咨询服务。
+基于 GraphRAG (Graph-based Retrieval Augmented Generation) 技术的智能医疗知识问答系统，将知识图谱的精确检索能力与生成式 AI 的语义理解能力相结合，为用户提供准确、及时的医疗咨询服务。
 
 ## 效果图
 
