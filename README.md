@@ -55,8 +55,8 @@
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/LLTzz/-GraphRAG-.git
-cd -GraphRAG-
+git clone https://github.com/LLTzz/GraphRAG.git
+cd GraphRAG
 ```
 
 2. 后端设置
