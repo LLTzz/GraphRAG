@@ -37,7 +37,7 @@
 - Neo4j：图数据库
 - Deepseek API：生成模型
 - python-dotenv：环境变量管理
-
+- jieba : 提取关键词
 ### 前端
 - React：UI 框架
 - Tailwind CSS：样式框架
