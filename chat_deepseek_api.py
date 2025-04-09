@@ -5,6 +5,7 @@ import logging
 from dotenv import load_dotenv
 from neo4j import GraphDatabase
 import json
+import jieba
 
 # 设置默认编码为utf-8
 if sys.stdout.encoding != 'utf-8':
@@ -65,9 +66,8 @@ class GraphRAGHandler:
                 LIMIT 5
                 """
                 
-                # 从问题中提取关键词（这里简单处理，实际应用中可以使用更复杂的NLP方法）
-                keyword = question.split()[0]  # 使用问题的第一个词作为关键词
-                
+            
+                keyword = jieba.lcut(question)[0] # 使用jieba分词提取关键词
                 result = session.run(query, keyword=keyword)
                 return [record for record in result]
         except Exception as e:
